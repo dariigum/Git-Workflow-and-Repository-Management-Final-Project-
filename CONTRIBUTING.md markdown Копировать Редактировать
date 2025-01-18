@@ -1,0 +1,32 @@
+# Contributing to Simple Interest Calculator
+
+## How to Contribute
+1. Fork this repository.
+2. Clone it to your local machine.
+3. Create a branch:
+   ```bash
+   git checkout -b <branch-name>
+git commit -m "Description of changes"
+git push origin <branch-name>
+
+---
+
+### **5. simple-interest.sh**
+```bash
+#!/bin/bash
+
+# Script to calculate simple interest
+
+echo "Enter Principal:"
+read principal
+
+echo "Enter Rate of Interest (annual in %):"
+read rate
+
+echo "Enter Time (in years):"
+read time
+
+# Calculate simple interest
+interest=$(echo "$principal * $rate * $time / 100" | bc -l)
+
+echo "Simple Interest: $interest"
