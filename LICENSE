@@ -200,3 +200,23 @@
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.
+
+
+---
+
+### **3. CODE_OF_CONDUCT.md**
+```markdown
+# Contributor Code of Conduct
+
+## Our Pledge
+We pledge to make participation in our community a harassment-free experience for everyone, regardless of age, gender identity, and other characteristics.
+
+## Our Standards
+Examples of positive behavior include:
+- Being respectful.
+- Accepting constructive criticism.
+- Showing empathy.
+
+## Enforcement
+Instances of unacceptable behavior may be reported to [email@example.com].
+
